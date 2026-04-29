@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Special Elite', monospace;
+  background: linear-gradient(135deg, #f5f0eb, #e8e0d8);
+  color: #3e3529;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 26px;
+  color: #4a3f34;
+  letter-spacing: 1px;
+}
+
+.header p {
+  color: #7a6a5a;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.form-card,
+.table-card {
+  background: linear-gradient(145deg, #ffffff, #f3ece6);
+  border: 2px solid #3e3529;
+  border-radius: 0;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.form-card h2,
+.table-card h2 {
+  font-size: 14px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #3e3529;
+  padding-bottom: 6px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-row input {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px;
+  border: 2px solid #3e3529;
+  border-radius: 0;
+  background: #fff;
+  font-family: inherit;
+  outline: none;
+}
+
+.form-row input:focus {
+  background: #f5f0eb;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: 2px solid #3e3529;
+  border-radius: 0;
+  font-family: inherit;
+  cursor: pointer;
+  background: #fff;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-primary {
+  background: #3e3529;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #000;
+}
+
+.btn-cancel {
+  background: #fff;
+  color: #3e3529;
+}
+
+.btn-cancel:hover {
+  background: #e8e0d8;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #e8e0d8;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3e3529;
+}
+
+td {
+  padding: 12px;
+  border-top: 2px solid #3e3529;
+}
+
+tr:hover {
+  background: #f5f0eb;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-edit,
+.btn-delete {
+  background: #fff;
+  border: 2px solid #3e3529;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.btn-edit:hover {
+  background: #3e3529;
+  color: #fff;
+}
+
+.btn-delete {
+  border-color: #7a3a3a;
+  color: #7a3a3a;
+}
+
+.btn-delete:hover {
+  background: #7a3a3a;
+  color: #fff;
+}
+
+.empty-state {
+  text-align: left;
+  padding: 30px 10px;
+  font-size: 13px;
+}
+
+.message {
+  padding: 10px;
+  border: 2px solid #3e3529;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: #f5f0eb;
+}
